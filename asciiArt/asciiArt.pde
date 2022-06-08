@@ -22,3 +22,5 @@ print("\n   *****   ");
 print("\n   *****   ");
 print("\n   \\***/   ");
 print("\n    \\/  ");
+
+boolean isRight;

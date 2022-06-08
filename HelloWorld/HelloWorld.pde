@@ -9,3 +9,7 @@
 */
 print("Hello, world! ");
 print("\nMy name is Anay!");
+
+
+var a = "10";
+print(a);
