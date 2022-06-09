@@ -1,0 +1,10 @@
+boolean a = (4>7 && true);
+boolean b = !(4<7);
+boolean c = !(4>=7);
+boolean d = (4<=7 != false);
+boolean e = (2>7 || false);
+print (a);
+print (b);
+print (c);
+print (d);
+print (e);
