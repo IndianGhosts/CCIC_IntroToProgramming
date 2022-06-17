@@ -1,3 +1,4 @@
+//Sorry i tried to code the borders in Snake as well as the Food. I spent all class with Luis Aditya and Josh and we tried many methods but sadly couldnt figure out how to complete certain tasks in SNake.
 public class Snake{
   int x;
   int y=0;
@@ -11,12 +12,14 @@ public class Snake{
   
   public void drawSnake(){
     fill(0,255,0);
-    rect(x,y,10,10);
+    rect(x,y,15,15);
   }
   
   public void moveSnake(){
    if (currentDirection == "Up"){
      y=y-1;
+     if (y<=0){
+     }
    }
    if (currentDirection == "Down"){
      y=y+1;
